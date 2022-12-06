@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #202225;
+    line-height: 1.2;
+    box-size:border-box;
+    
+}
+
+#menu-ul li {
+    padding: 4px;
+}
+
+#menu ul li .active{
+  --tw-text-opacity: 1;
+  color: rgba(116, 86, 255, var(--tw-text-opacity));
+}
+#btn-ctm .active{
+    background: rgba(116, 86, 255, var(--tw-text-opacity));
+    border-radius: 0.25rem;
+}
+
+#ct-l-personal ul{
+    flex: 1;
+    border: solid 1px #202225;
+    padding: 6px;
+    border-radius: 4px;
+    background: #202225;
+    margin: 2px;
+    min-width: 217px;
+    text-align:center;
+    cursor:pointer
+}
+#ct-l-personal ul:hover{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(116, 86, 255, var(--tw-ring-opacity));
+
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #f8f8f8);
+}
+
+.n-items{
+    margin: 12px
+}
+.transition-box {
+    transition: ease all 2s;
+}
+
+#id-card-pj{
+    margin-top:16px;
+}
+
+@media screen and (max-width:568px){
+    #menu ul{
+        
+    }
+}
