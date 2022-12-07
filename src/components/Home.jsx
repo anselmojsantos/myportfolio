@@ -1,4 +1,5 @@
 import React,{useState, useEffect} from 'react';
+import {CgFileDocument} from 'react-icons/cg';
 
 export  function Home (){
     const [user, setUser] = useState({name:'', avatar:'',reposURL:''})
@@ -49,12 +50,12 @@ export  function Home (){
                             Estou aqui na luta de cada dia. Este sou eu.
                         </div>
                         <button type="button" id="btn" 
-                            className="px-5 py-4 bg-400 w-[140px] rounded text-50  
-                                cursor-pointer shadow-md transition-colors ring-white
+                            className="flex justify-center items-center gap-1 py-4 bg-400 w-[150px] rounded text-50  
+                                cursor-pointer shadow-md transition-colors ring-white sm:w-full
                             hover:border-white hover:bg-[#4F2AFA] focus:ring-2" 
                                  onClick={btnHome}
                         >
-                            Download CV
+                          <CgFileDocument className='w-6' />  Download CV
                         </button>
                     </div> 
                     

@@ -1,8 +1,15 @@
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import imgFooter from '../../public/vector.svg';
 import phone from './../../public/iconPhone.svg';
 import mail from './../../public/iconMail.svg';
 
 export function Footer(){
+
+    const Fgithub = () =>{
+        window.open("https://github.com/anselmojsantos/myportfolio","_blank")
+    }
+    const FlinkD = () => window.open('https://www.linkedin.com/in/anselmo-santos-3bgm', '_blank');
+
     
     return(
         <section id="id-ctm" 
@@ -29,7 +36,12 @@ export function Footer(){
                                 <div className='w-10 h-10'><img src={mail}/></div>
                                 <div className='w-auto h-10 ml-2 flex items-center'>anselmo3.santos@gmail.com</div>
                             </div>
+                            <div id="id-rs" className='w-full h-auto gap-2  py-2 flex justify-start items-center'>
+                                <AiFillGithub className='w-8 h-8 cursor-pointer' onClick={Fgithub}/>
+                                <AiFillLinkedin className='w-8 h-8 cursor-pointer' onClick={FlinkD} />
+                            </div>
                         </div>
+                        
                         <div className="w-[150px] h-[150px] flex justify-end items-center sm:m-auto sm:w-[100px] sm:h-[150px]" 
                             style={{backgroundImage:`url(${imgFooter})`, backgroundPosition:'left', backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
                         </div>

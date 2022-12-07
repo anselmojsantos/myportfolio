@@ -1,6 +1,5 @@
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
-import imgFooter from '../../public/vector.svg';
 import {Link} from  'react-scroll'
 import logo from'../../public/ajs.svg';
 import { useState } from 'react'
