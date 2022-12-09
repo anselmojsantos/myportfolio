@@ -22,7 +22,7 @@ export function Experience(){
                     </div>
                     <div id="ct-personal-skill" 
                         className="w-full text-slate-100 text-center pb-2 ">
-                        Tenho também habilidades com algumas skills:
+                        Algumas Skills:
                     </div>
                     <div id="ct-skill" className="w-full text-slate-100 flex justify-between">
                         <div id="ct-l-personal" 

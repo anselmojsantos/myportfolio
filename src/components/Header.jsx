@@ -49,7 +49,7 @@ export function Header(){
                         </div>
                     </ul>
                     <button id ="btn-ctm" className='ring-2 ring-400 text-50 font-semibold p-2 rounded ml-2 hover:bg-400 focus:bg-400' onClick={closeMenu}>
-                            <Link to="id-curso" spy={true} smooth={true} offset={-80} duration={500} onClick={closeMenu} className="sm:text-sm sm:p-1">CONTACT ME</Link>
+                            <Link to="id-ctm" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu} className="sm:text-sm sm:p-1">CONTACT ME</Link>
                     </button>
                 </div>
             </div> 
