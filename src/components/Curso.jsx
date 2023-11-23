@@ -6,7 +6,7 @@ export function Curso(){
         <section id="id-curso" 
             className="w-ful h-auto flex justify-center">
             <div id="id-pj" 
-                className='w-[1024px] h-auto text-slate-50 p-5 bg-bg-blue-900 relative
+                className='w-[1040px] h-auto text-slate-50 p-5 bg-bg-blue-900 relative
                 lg:px-2' 
                 >
                 <h2 id="t-h2"
@@ -17,7 +17,7 @@ export function Curso(){
                 </h2>
                 <div id="id-ct-crs" className='w-full h-auto flex justify-around items-center flex-wrap'>
                 <CardCurso 
-                    bgColor = '#7456ff1c'
+                    bgColor = '#09afe61a'
                     borderCol = '#7456FF'
                     linkImg='https://vemprafam.com.br/wp-content/uploads/2019/06/logo-1.png'
                     linkUrl = 'https://vemprafam.com.br/'
@@ -25,7 +25,7 @@ export function Curso(){
                     textP = 'Curso: Sistema de Informação'
                 />
                 <CardCurso 
-                    bgColor = '#7456ff1c'
+                    bgColor = '#09afe61a'
                     borderCol = '#7456FF'
                     linkImg='	https://b7web.com.br/fullstack/static/media/logo.774c48ad.png'
                     linkUrl='https://b7web.com.br/fullstack/'
@@ -33,7 +33,7 @@ export function Curso(){
                     textP = 'Curso: Full Stack Dev'
                 />
                 <CardCurso 
-                    bgColor = '#7456ff1c'
+                    bgColor = '#09afe61a'
                     borderCol = '#7456FF'
                     linkImg='https://projetojavaweb.com/certificado-aluno/static/img/logotipo.png'
                     linkUrl='https://www.jdevtreinamento.com.br/'

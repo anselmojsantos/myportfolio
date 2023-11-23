@@ -7,7 +7,7 @@ export function Projects(){
         <section id="id-projects" 
             className="w-ful h-auto flex justify-center items-center">
                 <div id="id-pj" 
-                    className='w-[1024px] h-auto text-slate-50 p-5 bg-bg-blue-900 relative
+                    className='w-[1040px] h-auto text-slate-50 p-5 bg-bg-blue-900 relative
                                lg:px-2' 
                            style={
                                 {
@@ -49,6 +49,14 @@ export function Projects(){
                             textColor = '#81D8F7'
                             linkPages = "https://anselmojsantos.github.io/ignite-lab-ds" 
                             linkGit="https://github.com/anselmojsantos/ignite-lab-ds" /> 
+                       
+                        <CardsComponents 
+                            linkImg = "https://user-images.githubusercontent.com/49048624/285263961-ce7f7755-29b3-46fa-aed1-077224dbeee0.png"
+                            textSpanBold = "Projeto Node.Js PetDevShop"
+                            textSpan = "B7web - 2023"
+                            textColor = '#81D8F7'
+                            linkPages = "https://canilprojects.onrender.com/" 
+                            linkGit="https://github.com/anselmojsantos/projetoCanil" /> 
                     </div>     
                 </div>     
         </section>

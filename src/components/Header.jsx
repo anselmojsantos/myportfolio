@@ -1,7 +1,7 @@
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import {Link} from  'react-scroll'
-import logo from'../../public/ajs.svg';
+import logo from'../../public/logo.svg';
 import { useState } from 'react'
 
 export function Header(){
@@ -21,7 +21,7 @@ export function Header(){
 
     return(
         <header id = 'header' className="pos w-full h-20 bg-900 flex justify-center items-center lg:px-1 sm:px-1 fixed z-50">    
-            <div id='header-center' className="w-[1024px] h-20 flex items-center justify-between lg:px-2">
+            <div id='header-center' className="w-[1040px] h-20 flex items-center justify-between lg:px-2">
                 <div id='logo' className="w-[198px] sm:w-[150px] xsm:w-[110px]"><img src={logo}  type={"image/svg+xml"} alt={"Logo"} /></div>
                 <div id='menu' className='flex justify-between items-center'>
                     <div id ="id-btn-menu" className=' hidden sm:flex w-8 h-8 justify-center items-center' onClick={openMenu}>

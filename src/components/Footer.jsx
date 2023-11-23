@@ -15,7 +15,7 @@ export function Footer(){
         <section id="id-ctm" 
             className="w-ful h-auto flex justify-center mb-0">
             <div id="id-pj" 
-                className='w-[1024px] h-auto text-slate-50 p-5  bg-1000 relative
+                className='w-[1040px] h-auto text-slate-50 p-5  bg-1000 relative
                 lg:px-2' 
                 >
                 <h2 id="t-h2"

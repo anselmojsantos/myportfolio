@@ -25,7 +25,7 @@ export  function Home (){
     return(
         <section id ="home" className="w-full h-auto flex justify-center ">
             <div id = "home-ct" 
-                className="w-[1024px] h-auto p-5 rounded-xl flex items-center 
+                className="w-[1040px] h-auto p-5 rounded-xl flex items-center 
                             justify-between bg-bg-blue-900 relative mt-20
                             lg:px-2 md:flex-col-reverse md:w-full sm:p-4"
                 >
@@ -41,18 +41,20 @@ export  function Home (){
                         </h1>
                         <div className="text-sm text-50 mb-4 md:m-ma">Study of Information Systen</div>
                         <div className="text-50 text-justify mb-4 mr-[10px] leading-normal">
-                            Muito prazer em conhece-lo(a), sou vigilante por profissão e um Dev por paixão, 
-                            gosto muito desta área voltado para aplicações web, estou sempre estudando 
-                            para melhorar o meu desempenho, tenho muito que aprender e  me esforço para isso. 
-                            As dificuldades vem e vão e me deixam experiências para a vida. Apesar da começar tarde, 
-                            não me impede de adquirir conhecimentos e experiências que ao longo dessa fase 
-                            vem me proporcionando e amadurecendo a cada etapa, como dizem - "nunca é tarde para estudar". 
-                            Estou aqui na luta de cada dia. Este sou eu.
+                            Olá! Muito prazer em conhecê-lo(a). Sou vigilante por profissão e um 
+                            Dev por paixão. Minha paixão pela área de desenvolvimento de aplicações 
+                            web me impulsiona a buscar constantemente aprimorar meu desempenho. 
+                            Estou sempre imerso em estudos para garantir que meus conhecimentos estejam 
+                            alinhados com as últimas tendências e melhores práticas. Minha jornada 
+                            profissional como vigilante trouxe valiosas lições sobre segurança, 
+                            disciplina e responsabilidade, características que considero fundamentais 
+                            no mundo do desenvolvimento de software. Essas experiências me fortaleceram 
+                            e me deram uma perspectiva única sobre desafios e soluções.
                         </div>
                         <button type="button" id="btn" 
-                            className="flex justify-center items-center gap-1 py-4 bg-400 w-[150px] rounded text-50  
+                            className="flex justify-center items-center gap-1 py-4 bg-[#09AFE6] w-[150px] rounded text-slate-700  
                                 cursor-pointer shadow-md transition-colors ring-white sm:w-full
-                            hover:border-white hover:bg-[#4F2AFA] focus:ring-2" 
+                            hover:border-white hover:bg-[#09afe6be] focus:ring-2" 
                                  onClick={btnHome}
                         >
                           <CgFileDocument className='w-6' />  Download CV
