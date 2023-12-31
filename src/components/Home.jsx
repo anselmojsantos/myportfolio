@@ -30,7 +30,7 @@ export  function Home (){
                             lg:px-2 md:flex-col-reverse md:w-full sm:p-4"
                 >
                     <div id="home-wc" 
-                        className="h-full flex-1 flex flex-col justify-between items-baseline"
+                        className="h-full flex-1 flex flex-col justify-between items-baseline leading-loose"
                     >
                          <h1 id='t-h1' 
                             className="text-50 font-semibold text-[35px]
@@ -40,7 +40,7 @@ export  function Home (){
                             meu nome é <span className="text-400">{user.name}</span>
                         </h1>
                         <div className="text-sm text-50 mb-4 md:m-ma">Study of Information Systen</div>
-                        <div className="text-50 text-justify mb-4 mr-[10px] leading-normal">
+                        <div className="text-50 text-justify mb-4 mr-[10px] leading-loose">
                             Olá! Muito prazer em conhecê-lo(a). Sou vigilante por profissão e um 
                             Dev por paixão. Minha paixão pela área de desenvolvimento de aplicações 
                             web me impulsiona a buscar constantemente aprimorar meu desempenho. 
@@ -52,12 +52,12 @@ export  function Home (){
                             e me deram uma perspectiva única sobre desafios e soluções.
                         </div>
                         <button type="button" id="btn" 
-                            className="flex justify-center items-center gap-1 py-4 bg-[#09AFE6] w-[150px] rounded text-slate-700  
+                            className=" h-14 flex justify-center items-center gap-1 py-4 bg-[#09AFE6] w-[150px] rounded text-slate-700  
                                 cursor-pointer shadow-md transition-colors ring-white sm:w-full
                             hover:border-white hover:bg-[#09afe6be] focus:ring-2" 
                                  onClick={btnHome}
                         >
-                          <CgFileDocument className='w-6' />  Download CV
+                          <CgFileDocument className='w-6' />  Open CV
                         </button>
                     </div> 
                     
