@@ -38,7 +38,7 @@ export function Experience(){
                             <CardSkill titleH2 ='FrameWork' list={listFW}/>
                             <CardSkill titleH2 ='Métodologia Ágeis' list={listMA}/>
                             <CardSkill titleH2 ='Prototipagem' list={listPT}/>
-                            <CardSkill titleH2 = 'Versionamrnto de Cod' list={listGit}/>
+                            <CardSkill titleH2 = 'Versionamento de Cod' list={listGit}/>
                             
                         </div>
                     </div>
