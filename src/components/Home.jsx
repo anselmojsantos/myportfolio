@@ -1,5 +1,6 @@
 import React,{useState, useEffect} from 'react';
 import {CgFileDocument} from 'react-icons/cg';
+import { TextApresentation } from './texts/TextApresentation';
 
 export  function Home (){
     const [user, setUser] = useState({name:'', avatar:'',reposURL:''})
@@ -41,15 +42,7 @@ export  function Home (){
                         </h1>
                         <div className="text-sm text-50 mb-4 md:m-ma">Study of Information Systen</div>
                         <div className="text-50 text-justify mb-4 mr-[10px] leading-loose">
-                        Olá! Muito prazer em conhecê-lo(a). Sou vigilante por profissão e desenvolvedor de 
-                        aplicações por paixão. Minha paixão por essa área se tornou a minha vida, nada é tão 
-                        simples e fácil. Nas horas livres, procuro dedicar-me aos estudos para aprimorar meus
-                        conhecimentos. Sim, sou família. Além dos estudos, nas oportunidades, sempre levo meus 
-                        filhos a algum evento. Também amo a música erudita e toco trompete em uma orquestra 
-                        evangélica. Procuro estar ligado às novas tecnologias e metodologias que surgem, mas o 
-                        pouco que já aprendi só me faz querer ir adiante. Tenho um longo caminho a percorrer, 
-                        mas enquanto eu estiver de pé, vou caminhar para frente. Estou cursando Ciências de 
-                        Dados pela Univesp, um desafio e tanto. É isso que me mantém motivado a seguir em frente. 
+                        <TextApresentation />
                         </div>
                         <button type="button" id="btn" 
                             className=" h-14 flex justify-center items-center gap-1 py-4 bg-[#09AFE6] w-[150px] rounded text-slate-700  

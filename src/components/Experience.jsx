@@ -7,6 +7,7 @@ export function Experience(){
     let listFW = ['React.js','Vite.js','TailwindCSS'];
     let listMA = ['Scrum','Extreme Programming','Design Think','UI & UX'];
     let listPT = ['Figma'];
+    let listGit = ['Git Hub'];
    
     return(
         <section id="id-personal" 
@@ -37,6 +38,7 @@ export function Experience(){
                             <CardSkill titleH2 ='FrameWork' list={listFW}/>
                             <CardSkill titleH2 ='Métodologia Ágeis' list={listMA}/>
                             <CardSkill titleH2 ='Prototipagem' list={listPT}/>
+                            <CardSkill titleH2 = 'Versionamrnto de Cod' list={listGit}/>
                             
                         </div>
                     </div>
