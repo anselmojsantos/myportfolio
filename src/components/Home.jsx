@@ -49,7 +49,7 @@ export  function Home (){
                         evangélica. Procuro estar ligado às novas tecnologias e metodologias que surgem, mas o 
                         pouco que já aprendi só me faz querer ir adiante. Tenho um longo caminho a percorrer, 
                         mas enquanto eu estiver de pé, vou caminhar para frente. Estou cursando Ciências de 
-                        Dados pela Univesp, um desafio e tanto. É isso que me mantém motivado a seguir em frente 
+                        Dados pela Univesp, um desafio e tanto. É isso que me mantém motivado a seguir em frente. 
                         </div>
                         <button type="button" id="btn" 
                             className=" h-14 flex justify-center items-center gap-1 py-4 bg-[#09AFE6] w-[150px] rounded text-slate-700  
