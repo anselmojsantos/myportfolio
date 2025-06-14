@@ -1,7 +1,7 @@
 import {CardsComponents} from './cards/CardsComponents';
 
 export function ProjectsWeb(){
-   const bgimg = '/Background-Port.png';
+   const bgimg = '/bgImages/Background-Port.png';
     return(
         <section id="id-projects" 
             className="w-ful h-auto flex justify-center items-center">
