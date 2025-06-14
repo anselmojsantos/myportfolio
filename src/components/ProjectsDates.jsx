@@ -30,7 +30,7 @@ export function ProjectsDates(){
                     </p>
                     <div id="id-ct-pj" className='w-full h-auto flex justify-around items-center flex-wrap'>
                         <CardsComponents 
-                            linkImg={dashChoco}
+                            linkImg={dashVendas}
                             textSpanBold = "Mini Curos de Power BI - Vendas de Chocolates"
                             textSpan = "Karine Lago - 2025"
                             textColor = '#81D8F7'
