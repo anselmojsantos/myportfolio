@@ -1,10 +1,9 @@
-import bgimg from '../../public/BgDates.jpg';
-import dashChoco  from '../../public/dashboardsImg/dashVendas.png';
-import dashFinFlcx  from '../../public/dashboardsImg/dashFin.png';
 import {CardsComponents} from './cards/CardsComponents';
 
 export function ProjectsDates(){
-   
+    const bgimg = '../../../public/BgDates.jpg';
+    const dashChoco = '../../../public/imagesDash/dashVendas.png';
+    const dashFinFlcx = '../../../public/imagesDash/dashFin.png';
     return(
         <section id="id-projects"
             className="w-ful h-auto flex justify-center items-center">
