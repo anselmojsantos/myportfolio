@@ -1,9 +1,9 @@
 import {CardsComponents} from './cards/CardsComponents';
-import bgDates from '../../public/BgDates.jpg';
-import dashChoco  from '../../public/dashVendas.png';
-import dashFinFlcx  from '../../public/dashFin.png';
+
 export function ProjectsDates(){
-     
+     const bgDates = '/BgDates.jpg';
+     const dashChoco = '/dashVendas.png';
+     const dashFinFlcx = '/dashFin.png';
     return(
         <section id="id-projects"
             className="w-ful h-auto flex justify-center items-center">
