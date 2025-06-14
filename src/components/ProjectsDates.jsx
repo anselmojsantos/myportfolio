@@ -1,6 +1,6 @@
 import bgimg from '../../public/BgDates.jpg';
-import dashChoco  from '../../public/dashboards.img/dash Vendas Choco - 2025.png';
-import dashFinFlcx  from '../../public/dashboards.img/Dash Financeitro - Fluxo de Cx - 2025.png';
+import dashChoco  from '../../public/dashboards.img/dash-Vendas-Choco-2025.png';
+import dashFinFlcx  from '../../public/dashboards.img/Dash-Financeitro-Fluxo-de-Cx-2025.png';
 import {CardsComponents} from './cards/CardsComponents';
 
 export function ProjectsDates(){
