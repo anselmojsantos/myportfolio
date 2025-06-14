@@ -1,12 +1,12 @@
 import bgimg from '../../public/BgDates.jpg';
-import dashChoco  from '../../public/dashboards.img/dash-Vendas-Choco-2025.png';
+import dashChoco  from '../../public/dashboardsImg/dash-Vendas-Choco-2025.png';
 import dashFinFlcx  from '../../public/dashboards.img/Dash-Financeitro-Fluxo-de-Cx-2025.png';
 import {CardsComponents} from './cards/CardsComponents';
 
 export function ProjectsDates(){
    
     return(
-        <section id="id-projects" 
+        <section id="id-projects"
             className="w-ful h-auto flex justify-center items-center">
                 <div id="id-pj" 
                     className='w-[1040px] h-auto text-slate-50 p-5 bg-bg-blue-900 relative
