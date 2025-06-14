@@ -2,7 +2,7 @@ import {CardsComponents} from './cards/CardsComponents';
 
 export function ProjectsDates(){
      const bgDates = '/BgDates.jpg';
-     const dashChoco = '/dashVendas.png';
+     const dashVendas = '/dashVendas.png';
      const dashFinFlcx = '/dashFin.png';
     return(
         <section id="id-projects"
