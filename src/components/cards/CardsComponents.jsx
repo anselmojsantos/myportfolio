@@ -10,8 +10,10 @@ export function CardsComponents({linkImg,textSpan, textColor, textSpanBold,linkP
                 <span className=' mt-4' style={{color:textColor}}>{textSpanBold}</span> | {textSpan}
             </div>
             <div className='w-full flex justify-between'>
-                < a className='px-5 py-1 bg-400 rounded  hover:bg-[#09afe6be]' href={linkPages} target={'_blank'} >Link</a>
-                < a className='px-5 py-1 border-2 border-400 rounded hover:bg-bg-blue-900' href={linkGit}target={'_blank'}>GitHub</a>
+                < a className={`${linkGit ? 'px-5 py-1':'py-1 w-full text-center'} bg-400 rounded  hover:bg-[#09afe6be]`} href={linkPages} target={'_blank'} >Link</a>
+                {linkGit && (
+                    < a className='px-5 py-1 border-2 border-400 rounded hover:bg-bg-blue-900' href={linkGit}target={'_blank'}>GitHub</a>
+                )}
             </div>
         </div>                  
     );
