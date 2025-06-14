@@ -2,7 +2,8 @@ import './index.css'
 import {Header} from './Header'
 import {Home} from './Home'
 import { Experience } from './Experience'
-import {Projects} from './Projects'
+import {ProjectsWeb} from './Projects.Web'
+import { ProjectsDates } from './ProjectsDates'
 import { Curso } from './Curso'
 import {Footer} from './Footer'
 
@@ -13,7 +14,8 @@ export default function App() {
        <Header/>
        <Home />
        <Experience />
-       <Projects />
+       <ProjectsWeb />
+       <ProjectsDates />
        <Curso />
        <Footer />
     </div>

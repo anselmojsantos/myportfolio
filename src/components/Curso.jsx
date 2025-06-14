@@ -27,6 +27,14 @@ export function Curso(){
                 <CardCurso 
                     bgColor = '#09afe61a'
                     borderCol = '#7456FF'
+                    linkImg='https://univesp.br/sites/58f6506869226e9479d38201/theme/images/logo-univesp.png?1746625787'
+                    linkUrl = 'https://univesp.br/'
+                    textSpan = 'Univesp'
+                    textP = 'Curso: Ciências de Dados | 2022'
+                />
+                <CardCurso 
+                    bgColor = '#09afe61a'
+                    borderCol = '#7456FF'
                     linkImg='	https://b7web.com.br/fullstack/static/media/logo.774c48ad.png'
                     linkUrl='https://b7web.com.br/fullstack/'
                     textSpan = 'B7Web'
@@ -47,6 +55,14 @@ export function Curso(){
                     linkUrl='https://app.rocketseat.com.br/'
                     textSpan = 'RocketSeat'
                     textP = 'Curso: Eventos Ignite Lab | NLW'
+                />
+                <CardCurso 
+                    bgColor = '#7456ff1c'
+                    borderCol = '#7456FF'
+                    linkImg='https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg'
+                    linkUrl='https://www.udemy.com/course/formacao-em-ciencia-de-dados/?couponCode=LOCLZDOFFPBRTRMT'
+                    textSpan = 'Udemy'
+                    textP = 'Curso: Formação Plena em Analise e  Ciência de Dados | 2025 '
                 />
                 </div>
             </div>

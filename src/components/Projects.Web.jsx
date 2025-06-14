@@ -1,7 +1,7 @@
 import bgimg from '../../public/Background-Port.png';
 import {CardsComponents} from './cards/CardsComponents';
 
-export function Projects(){
+export function ProjectsWeb(){
    
     return(
         <section id="id-projects" 
@@ -24,6 +24,9 @@ export function Projects(){
                     >
                         My Projects
                     </h2>  
+                    <p className='text-center text-slate-100 text-[20px] font-semibold mb-5'>
+                        Desenvolvimento Web
+                    </p>
                     <div id="id-ct-pj" className='w-full h-auto flex justify-around items-center flex-wrap'>
                         
                         <CardsComponents 

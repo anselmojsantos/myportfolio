@@ -1,12 +1,11 @@
-import { TextExperience } from "./texts/TextExperience";
 import { CardSkill } from "./cards/CardSkill";
 
 export function Experience(){
-    let listLP = ['JavaScript','HTML5','CSS3','Java Orientado a Objeto','Excel VBA'];
-    let listBD = ['Modelagem de banco de dados','Linguagem: MySql'];
-    let listFW = ['React.js','Vite.js','TailwindCSS'];
-    let listMA = ['Scrum','Extreme Programming','Design Think','UI & UX'];
-    let listPT = ['Figma'];
+    let listLP = ['Java Orientado a Objeto','Excel VBA'];
+    let listBD = ['Modelagem de banco de dados','MySQL','PostgreSQL'];
+    let listFW = ['React.js','Vite.js','TailwindCSS', 'Node.js','Fastify.js','Prisma ORM'];
+    let listMA = ['Scrum','Extreme Programming','Design Think','Seis Sigma White Belt'];
+    let listPT = ['Figma','UI & UX'];
     let listGit = ['Git Hub'];
    
     return(
@@ -23,23 +22,15 @@ export function Experience(){
                      >
                         Desenvolvimento Pessoal
                     </h2>
-                    <div id="ct-personal-ex" className="w-full text-slate-100  text-center py-2 leading-loose">
-                        <TextExperience />
-                    </div>
-                    <div id="ct-personal-skill" 
-                        className="w-full text-slate-100 text-center py-4 ">
-                        Minhas habilidades:
-                    </div>
                     <div id="ct-skill" className="w-full text-slate-100 flex justify-between">
                         <div id="ct-l-personal" 
                         className="w-full flex justify-between m-1 flex-wrap ">
                             <CardSkill titleH2 ='Linguagem de programação' list={listLP}/>
                             <CardSkill titleH2 ='DB: Banco de dados' list={listBD}/>
                             <CardSkill titleH2 ='FrameWork' list={listFW}/>
-                            <CardSkill titleH2 ='Métodologia Ágeis' list={listMA}/>
+                            <CardSkill titleH2 ='Gestão e Metodologias' list={listMA}/>
                             <CardSkill titleH2 ='Prototipagem' list={listPT}/>
-                            <CardSkill titleH2 = 'Versionamento de Cod' list={listGit}/>
-                            
+                            <CardSkill titleH2 = 'Versionamento de Cod' list={listGit}/>                           
                         </div>
                     </div>
                 </div>

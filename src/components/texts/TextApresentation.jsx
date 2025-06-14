@@ -1,15 +1,23 @@
 export function TextApresentation(){
     return (
         <>
-            Olá! Muito prazer em conhecê-lo(a). Sou vigilante por profissão e desenvolvedor de 
-            aplicações por paixão. Minha paixão por essa área se tornou a minha vida, nada é tão 
-            simples e fácil. Nas horas livres, procuro dedicar-me aos estudos para aprimorar meus
-            conhecimentos. Sim, sou família. Além dos estudos, nas oportunidades, sempre levo meus 
-            filhos a algum evento. Também amo a música erudita e toco trompete em uma orquestra 
-            evangélica. Procuro estar ligado às novas tecnologias e metodologias que surgem, mas o 
-            pouco que já aprendi só me faz querer ir adiante. Tenho um longo caminho a percorrer, 
-            mas enquanto eu estiver de pé, vou caminhar para frente. Estou cursando Ciências de 
-            Dados pela Univesp, um desafio e tanto. É isso que me mantém motivado a seguir em frente.
+            
+            Olá! Muito prazer em conhecê-lo(a). Agradeço pelo tempo dedicado a visitar meu portfólio.
+
+            Minha trajetória profissional é como vigilante patrimonial, mas, ao ingressar na faculdade de Sistemas de Informação (FAM), descobri um novo mundo de oportunidades na tecnologia.
+
+            No caminho, resolvi experimentar a área de dados, que ampliou meus horizontes. Desde então, venho me especializando em:
+
+            Programação (Python, JavaScript);
+
+            Bancos de dados relacionais (MySQL, PostgreSQL, Oracle);
+
+            Análise de dados e negócios corporativos.
+
+            Atualmente, curso Ciência de Dados na Univesp — um desafio em tanto, pois acredito que o crescimento e o amadurecimento vem através de desafios.
+
+            Muito obrigado por conhecer um pouco da minha jornada. Espero que possamos nos conectar.
+        
         </>
     )
 }

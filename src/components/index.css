@@ -51,6 +51,10 @@ body{
 #id-card-pj{
     margin-top:16px;
 }
+p.text-dates {
+    color: #3b374a;
+    text-shadow: 0px 0px 42px #d3d3d3;
+}
 
 @media screen and (max-width:568px){
     #menu ul{
