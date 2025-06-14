@@ -3,7 +3,7 @@ import {CardsComponents} from './cards/CardsComponents';
 export function ProjectsDates(){
      const bgDates = '/BgDates.jpg';
      const dashVendas = '/dashVendas.png';
-     const dashFinFlcx = '/dashFin.png';
+     const dashFinFlcx = '/dashFin.PNG';
     return(
         <section id="id-projects"
             className="w-ful h-auto flex justify-center items-center">
@@ -37,7 +37,7 @@ export function ProjectsDates(){
                             linkPages = 'https://app.powerbi.com/view?r=eyJrIjoiNWNjYzdmZDgtYWQxMy00NWI3LTk4NjAtMWZjYTJmZDQ0MmIyIiwidCI6IjFlNTEwNDMzLWE4ZDAtNGJiNS1iMjkzLTllY2RhOWZkOTQzYSJ9'
                         />
                         <CardsComponents
-                            linkImg= {dashFinFlcx}
+                            linkImg={dashFinFlcx}
                             textSpanBold = "Imerssão Power BI - Fluxo de Caixa"
                             textSpan = "Karina Lago e Letícia - 2025"
                             textColor = '#81D8F7'
