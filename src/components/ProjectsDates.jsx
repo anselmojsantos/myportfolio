@@ -3,6 +3,7 @@ import {CardsComponents} from './cards/CardsComponents';
 export function ProjectsDates(){
      const bgDates = '/bgImages/BgDates.jpg';
      const dashVendas = '/dashImg/dashVendas.png';
+     const smartDash = '/dashImg/smartDash.PNG';
      const dashFinFlcx = '/dashImg/dashFin.PNG';
     return(
         <section id="id-projects"
@@ -43,6 +44,14 @@ export function ProjectsDates(){
                             textColor = '#81D8F7'
                             linkPages = 'https://app.powerbi.com/view?r=eyJrIjoiOWJkOTdmMzUtNmIxNy00ZTc1LThkYTgtMjI1OTkwZmRlNzM5IiwidCI6IjFlNTEwNDMzLWE4ZDAtNGJiNS1iMjkzLTllY2RhOWZkOTQzYSJ9&pageName=2fcb35581e9bd5de6dc6' 
                             linkGit=""
+                        />
+                        <CardsComponents
+                            linkImg={smartDash}
+                            textSpanBold = "Projeto Integrador - Analise de Dados"
+                            textSpan = "PJ II Univesp | Python - 2025"
+                            textColor = '#81D8F7'
+                            linkPages = 'https://pj-smart-order-dashboard.streamlit.app/' 
+                            linkGit="https://github.com/anselmojsantos/pj-smart-order-dashboard"
                         />
                     </div>     
                 </div>     

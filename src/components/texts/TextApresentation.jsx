@@ -1,22 +1,27 @@
 export function TextApresentation(){
     return (
         <>
-            
-            Olá! Muito prazer em conhecê-lo(a). Agradeço pelo tempo dedicado a visitar meu portfólio.
+             Olá! É um prazer recebê-lo(a) aqui.
+        <p>
+            Minha trajetória começou na Segurança Patrimonial, onde desenvolvi habilidades em 
+            relacionamento interpessoal e resolução de conflitos. Sempre fui apaixonado por 
+            tecnologia, e ao ingressar em Sistemas de Informação, descobri minha vocação para análise de dados. 
+        </p>
+       
+        <ol>
+        Habilidades que venho desenvolvendo:
+        <li>🐍 Python para análise de dados</li>
+        <li>🗄️ SQL em MySQL, PostgreSQL e Oracle</li>
+        <li>📊 Análise de dados para negócios corporativos</li>
+        <li>🌐 JavaScript para desenvolvimento web</li>
+        </ol>
+        
+        Atualmente curso Ciência de Dados na Univesp, consolidando minha transição para a área de tecnologia. 
+        Acredito que crescimento genuíno vem através de desafios constantes.
 
-            Minha trajetória profissional é como vigilante patrimonial, mas, ao ingressar na faculdade de Sistemas de Informação (FAM), descobri um novo mundo de oportunidades na tecnologia.
-
-            No caminho, resolvi experimentar a área de dados, que ampliou meus horizontes. Desde então, venho me especializando em:
-
-            Programação (Python, JavaScript);
-
-            Bancos de dados relacionais (MySQL, PostgreSQL, Oracle);
-
-            Análise de dados e negócios corporativos.
-
-            Atualmente, curso Ciência de Dados na Univesp — um desafio em tanto, pois acredito que o crescimento e o amadurecimento vem através de desafios.
-
-            Muito obrigado por conhecer um pouco da minha jornada. Espero que possamos nos conectar.
+        Estou em busca de oportunidades onde possa unir minha experiência em people skills com 
+        análise técnica para gerar impacto real nos negócios.
+        Obrigado pela visita! Vamos conversar?
         
         </>
     )

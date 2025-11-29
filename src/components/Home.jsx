@@ -48,9 +48,10 @@ export  function Home (){
                             className=" h-14 flex justify-center items-center gap-1 py-4 bg-[#09AFE6] w-[150px] rounded text-slate-700  
                                 cursor-pointer shadow-md transition-colors ring-white sm:w-full
                             hover:border-white hover:bg-[#09afe6be] focus:ring-2" 
-                                 onClick={btnHome}
+                            onClick={'#'}
                         >
-                          <CgFileDocument className='w-6' />  Open CV
+                          <CgFileDocument className='w-6' />
+                            Refazendo...
                         </button>
                     </div> 
                     
