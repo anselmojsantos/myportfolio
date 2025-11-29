@@ -3,8 +3,8 @@ import {CardsComponents} from './cards/CardsComponents';
 export function ProjectsDates(){
      const bgDates = '/bgImages/BgDates.jpg';
      const dashVendas = '/dashImg/dashVendas.png';
-     const smartDash = '/dashImg/smartDash.PNG';
-     const dashFinFlcx = '/dashImg/dashFin.PNG';
+     const smartDash = '/dashImg/smartDash.png';
+     const dashFinFlcx = '/dashImg/dashFin.png';
     return(
         <section id="id-projects"
             className="w-ful h-auto flex justify-center items-center">
