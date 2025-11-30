@@ -43,7 +43,6 @@ export function ProjectsDates(){
                             textSpan = "Karina Lago e Letícia - 2025"
                             textColor = '#81D8F7'
                             linkPages = 'https://app.powerbi.com/view?r=eyJrIjoiOWJkOTdmMzUtNmIxNy00ZTc1LThkYTgtMjI1OTkwZmRlNzM5IiwidCI6IjFlNTEwNDMzLWE4ZDAtNGJiNS1iMjkzLTllY2RhOWZkOTQzYSJ9&pageName=2fcb35581e9bd5de6dc6' 
-                            linkGit=""
                         />
                         <CardsComponents
                             linkImg={smartDash}

@@ -8,6 +8,6 @@ export const btnGit = () => {
             
 export const btnLinkedin = () => {
     return (
-        < a className='px-5 py-1 bg-400 rounded  hover:bg-[#09afe6be]' href={linkPages} target={'_blank'} >Link</a>
+        < a className='px-5 py-1 border-2 border-400 rounded  hover:bg-[#09afe6be]' href={linkPages} target={'_blank'} >Link</a>
     );
 }

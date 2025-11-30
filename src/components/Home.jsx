@@ -40,7 +40,7 @@ export  function Home (){
                             Bem vindo ao meu portifólio,<br />
                             meu nome é <span className="text-400">{user.name}</span>
                         </h1>
-                        <div className="text-sm text-50 mb-4 md:m-ma">Study of Information Systen</div>
+                        <div className="text-sm text-50 mb-4 md:m-ma">Data Scientist</div>
                         <div className="text-50 text-justify mb-4 mr-[10px] leading-loose">
                         <TextApresentation />
                         </div>
