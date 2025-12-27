@@ -19,7 +19,7 @@ export function Curso(){
                 <CardCurso 
                     bgColor = '#09afe61a'
                     borderCol = '#7456FF'
-                    linkImg='https://vemprafam.com.br/wp-content/uploads/2019/06/logo-1.png'
+                    linkImg= 'https://www.vemprafam.com.br/wp-content/uploads/2019/06/logo-1.png'
                     linkUrl = 'https://vemprafam.com.br/'
                     textSpan = 'Faculdade das Américas'
                     textP = 'Curso: Sistema de Informação'
@@ -35,8 +35,8 @@ export function Curso(){
                 <CardCurso 
                     bgColor = '#09afe61a'
                     borderCol = '#7456FF'
-                    linkImg='	https://b7web.com.br/fullstack/static/media/logo.774c48ad.png'
-                    linkUrl='https://b7web.com.br/fullstack/'
+                    linkImg='B7Web'
+                    linkUrl='https://app.b7web.com.br/'
                     textSpan = 'B7Web'
                     textP = 'Curso: Full Stack Dev'
                 />

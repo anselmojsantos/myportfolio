@@ -1,6 +1,7 @@
+import { CardCursoProps } from "@/types";
 
 
-export function CardsComponents({linkImg,textSpan, textColor, textSpanBold,linkPages,linkGit}){
+export function CardsComponents({linkImg,textSpan, textColor, textSpanBold,linkPages,linkGit}: CardCursoProps){
     return(
         <div id='id-card-pj' className='w-52  h-60 bg-1000 rounded-xl p-4 cursor-pointer flex flex-col justify-between'>
             <div id="id-img-pj" className='w-full h-[50%]'>

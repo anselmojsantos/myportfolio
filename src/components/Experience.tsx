@@ -1,11 +1,11 @@
 import { CardSkill } from "./cards/CardSkill";
 
 export function Experience(){
-    let listLP = ['Java Orientado a Objeto','Excel VBA'];
+    let listLP = ['JavaScript','Python Para Dados','Excel VBA(Básico)'];
     let listBD = ['Modelagem de banco de dados','MySQL','PostgreSQL'];
-    let listFW = ['React.js','Vite.js','TailwindCSS', 'Node.js','Fastify.js','Prisma ORM'];
-    let listMA = ['Scrum','Extreme Programming','Design Think','Seis Sigma White Belt'];
-    let listPT = ['Figma','UI & UX'];
+    let listFW = ['React.js & Vite.js', 'Node.js','Flask (Básico)'];
+    let listMA = ['Scrum','Design Think','Seis Sigma White Belt'];
+    let listPT = ['Figma','UI/UX Básico'];
     let listGit = ['Git Hub'];
    
     return(
@@ -27,7 +27,7 @@ export function Experience(){
                         className="w-full flex justify-between m-1 flex-wrap ">
                             <CardSkill titleH2 ='Linguagem de programação' list={listLP}/>
                             <CardSkill titleH2 ='DB: Banco de dados' list={listBD}/>
-                            <CardSkill titleH2 ='FrameWork' list={listFW}/>
+                            <CardSkill titleH2 ='Front & Backend' list={listFW}/>
                             <CardSkill titleH2 ='Gestão e Metodologias' list={listMA}/>
                             <CardSkill titleH2 ='Prototipagem' list={listPT}/>
                             <CardSkill titleH2 = 'Versionamento de Cod' list={listGit}/>                           

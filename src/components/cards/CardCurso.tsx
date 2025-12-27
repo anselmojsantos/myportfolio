@@ -1,6 +1,15 @@
+import { CardCursoProps } from "@/types";
 
-
-export function CardCurso({linkImg, bgColor,borderCol, textSpan, textP,textColor, linkUrl}){
+export function CardCurso(
+    {
+        linkImg, 
+        bgColor,
+        borderCol, 
+        textSpan, 
+        textP,
+        textColor, 
+        linkUrl 
+    }: CardCursoProps){
     return(
         <>
             <a href={linkUrl} target='blank'>
