@@ -1,4 +1,4 @@
-export function CardSkill(props){
+export function CardSkill(props :{titleH2:string, list:string[]}) {
         
     return(
         <>

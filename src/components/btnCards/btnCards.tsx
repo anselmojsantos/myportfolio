@@ -1,12 +1,13 @@
+import { CardCursoProps } from "@/types";
 
-export const btnGit = () => {
+export const btnGit = ({linkGit}:CardCursoProps) => {
     return (
         < a className='px-5 py-1 border-2 border-400 rounded hover:bg-bg-blue-900' href={linkGit}target={'_blank'}>GitHub</a>
          
     );
 }
-            
-export const btnLinkedin = () => {
+
+export const btnLinkedin = ({linkPages}:CardCursoProps) => {
     return (
         < a className='px-5 py-1 border-2 border-400 rounded  hover:bg-[#09afe6be]' href={linkPages} target={'_blank'} >Link</a>
     );

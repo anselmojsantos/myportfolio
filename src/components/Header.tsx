@@ -6,10 +6,8 @@ import { useState } from 'react'
 
 export function Header(){
 
-    const [click, setClick] = useState(false);
-    const closeMenu = ()=> setClick(false); 
-      
     const [open, setOpen] = useState(100)
+    const closeMenu = ()=> setOpen(100); 
     const openMenu = () => setOpen(0);
     const clMenu = () =>   setOpen(100)
 
@@ -22,7 +20,7 @@ export function Header(){
     return(
         <header id = 'header' className="pos w-full h-20 bg-900 flex justify-center items-center lg:px-1 sm:px-1 fixed z-50">    
             <div id='header-center' className="w-[1040px] h-20 flex items-center justify-between lg:px-2">
-                <div id='logo' className="w-[198px] sm:w-[150px] xsm:w-[110px]"><img src={logo}  type={"image/svg+xml"} alt={"Logo"} /></div>
+                <div id='logo' className="w-[198px] sm:w-[150px] xsm:w-[110px]"><img src={logo} alt={"Logo"} /></div>
                 <div id='menu' className='flex justify-between items-center'>
                     <div id ="id-btn-menu" className=' hidden sm:flex w-8 h-8 justify-center items-center' onClick={openMenu}>
                         <GiHamburgerMenu className='w-6 h-6 fill-50 cursor-pointer hover:fill-400'/>
