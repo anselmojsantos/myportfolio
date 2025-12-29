@@ -1,4 +1,4 @@
-import { CardSkill } from "./cards/CardSkill";
+import { CardSkill } from "../components/cards/CardSkill";
 
 export function Experience(){
     let listLP = ['JavaScript','Python Para Dados','Excel VBA(Básico)'];

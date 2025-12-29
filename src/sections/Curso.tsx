@@ -1,4 +1,4 @@
-import { CardCurso } from "./cards/CardCurso";
+import { CardCurso } from "../components/cards/CardCurso";
 
 export function Curso(){
     

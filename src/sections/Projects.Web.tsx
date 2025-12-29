@@ -1,4 +1,4 @@
-import {CardsComponents} from './cards/CardsComponents';
+import {CardsComponents} from '../components/cards/CardsComponents';
 
 export function ProjectsWeb(){
    const bgimg = '/bgImages/Background-Port.png';

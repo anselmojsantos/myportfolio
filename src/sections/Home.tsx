@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 import {CgFileDocument} from 'react-icons/cg';
-import { TextApresentation } from './texts/TextApresentation';
+import { TextApresentation } from '../components/texts/TextApresentation';
 import { GitLink } from '@/types';
 
 export  function Home (){
@@ -14,8 +14,13 @@ export  function Home (){
             name:data.name,
             avatar:data.avatar_url,
             reposURL:data.repos_url
-          })
+          });
         })
+        .catch(error => {
+            if (error instanceof Error) {
+                alert(`Erro ao buscar dados do GitHub: ${error.message}`);
+            }   
+        });
       },[])
 
     function btnHome(){
