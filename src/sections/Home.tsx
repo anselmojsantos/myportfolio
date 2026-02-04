@@ -23,10 +23,10 @@ export  function Home (){
         });
       },[])
 
-    function btnHome(){
+    //function btnHome(){
         //window.open("https://drive.google.com/file/d/1Y_M_sRVrgN2LCNXLZEmQU8GA-iUxttld/view?usp=sharing","_blank")
-        console.log("Refazendo...")
-    }
+      //  console.log("Refazendo...")
+   // }
     
     return(
         <section id ="home" className="w-full h-auto flex justify-center ">
