@@ -1,5 +1,4 @@
 import {useState, useEffect} from 'react';
-import {CgFileDocument} from 'react-icons/cg';
 import { TextApresentation } from '../components/texts/TextApresentation';
 import { GitLink } from '@/types';
 
