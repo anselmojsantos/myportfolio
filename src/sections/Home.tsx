@@ -45,23 +45,11 @@ export  function Home (){
                             Bem vindo ao meu portifólio,<br />
                             meu nome é <span className="text-400">{user.name}</span>
                     </h1>
-                    <div className="text-lg text-400 mb-4 md:m-ma">
-                            Desenvolvedor Web com Foco em Dados | Python & React.Js + Node.Js
-                    </div>
+                    <div className="text-lg text-400 mb-4 md:m-ma"></div>
                     <div className="text-50 text-justify mb-4 mr-[10px] leading-loose">
                         <TextApresentation />
                     </div>
-                    <button type="button" id="btn" 
-                        className=" h-14 flex justify-center items-center gap-1 py-4 bg-[#09AFE6] w-[150px] 
-                                    rounded text-slate-700 cursor-pointer shadow-md transition-colors 
-                                  ring-white sm:w-full hover:border-white hover:bg-[#09afe6be] focus:ring-2" 
-                            onClick={btnHome}
-                    >
-                          <CgFileDocument className='w-6' />
-                            Refazendo...
-                    </button>
-                    </div> 
-                    
+                </div> 
                     <div id='user' 
                         className="w-[320px] ml-[10px] flex justify-center
                             md:ml-0 md:w-full"

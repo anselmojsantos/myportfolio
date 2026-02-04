@@ -41,14 +41,7 @@ export function ProjectsWeb(){
                             textSpan = "RocketSeat - 2022"
                             linkPages = "https://anselmojsantos.github.io/explorer-lab-01/" 
                             linkGit="https://github.com/anselmojsantos/explorer-lab-01"/>
-
-                        <CardsComponents 
-                            linkImg = "https://user-images.githubusercontent.com/49048624/204629530-a994102e-9357-4c18-a288-1e4aa399cd56.PNG"
-                            textSpanBold = "Ignite lab ds"
-                            textSpan = "RocketSeat - 2022"
-                            linkPages = "https://anselmojsantos.github.io/ignite-lab-ds" 
-                            linkGit="https://github.com/anselmojsantos/ignite-lab-ds" /> 
-                       
+                            
                         <CardsComponents 
                             linkImg = "https://user-images.githubusercontent.com/49048624/285263961-ce7f7755-29b3-46fa-aed1-077224dbeee0.png"
                             textSpanBold = "Projeto Node.Js PetDevShop"

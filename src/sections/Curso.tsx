@@ -17,7 +17,7 @@ export function Curso(){
                     linkImg= 'https://www.vemprafam.com.br/wp-content/uploads/2019/06/logo-1.png'
                     linkUrl = 'https://vemprafam.com.br/'
                     textSpan = 'Faculdade das Américas'
-                    textP = 'Curso: Sistema de Informação'
+                    textP = 'Curso: Sistema de Informação | 2020'
                 />
                 <CardCurso 
                     linkImg='https://univesp.br/sites/58f6506869226e9479d38201/theme/images/logo-univesp.png?1746625787'

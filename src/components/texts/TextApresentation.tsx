@@ -1,24 +1,23 @@
 export function TextApresentation(){
     return (
         <>
-             Olá! É um prazer recebê-lo(a) aqui.
+             Olá! É um prazer recebê-lo(a).
         <p>
-            Minha trajetória começou na Segurança Patrimonial, onde desenvolvi habilidades em 
-            relacionamento interpessoal e resolução de conflitos. Sempre fui apaixonado por 
-            tecnologia, e ao ingressar em Sistemas de Informação, despertou-me o gosto de aprender.
-            Atualmente, estou focado em aprimorar minhas habilidades em análise de dados. 
+            Sou um estudante em formação em Ciência de Dados pela Univesp com base em Sistemas de Informação
+            e foco na aplicação prática para solução de problemas.
+            Minha trajetória é impulsionada pela interseção entre tecnologia e decisão estratégica. 
+            Partindo de um conhecimento adquirido em Sistemas de Informação, construindo uma base robusta em lógica de 
+            programação e fundamentos de TI.
         </p>
-       
+       <br></br>
         <ol>
-        Habilidades que venho desenvolvendo:
-        <li>🐍 Python para análise de dados</li>
-        <li>🗄️ SQL em MySQL, PostgreSQL e Oracle</li>
-        <li>📊 Análise de dados para negócios corporativos</li>
-        <li>🌐 JavaScript para desenvolvimento web</li>
+            Habilidades que venho desenvolvendo:
+            <li>🐍 Python para análise de dados</li>
+            <li>🤖 Inteligência Artificial - Python</li>
+            <li>🗄️ SQL</li>
+            <li>📊 Análise de dados</li>
+            <li>🌐 JavaScript para desenvolvimento web</li>
         </ol>
-        
-        No curso de Ciência de Dados da Univesp, consolido minha transição para o mundo de dados. 
-        Acredito que o crescimento genuíno vem através de desafios constantes e muito aprendizado.
 
         Obrigado pela visita! Vamos conversar?
         

@@ -1,7 +1,7 @@
 import { CardSkill } from "../components/cards/CardSkill";
 
 export function Experience(){
-    let listLP = ['JavaScript','Python Para Dados','Excel VBA(Básico)'];
+    let listLP = ['JavaScript','Python Para Dados (Foco)','Python Para IA (Estudando)','Excel VBA(Básico)'];
     let listBD = ['Modelagem de banco de dados','MySQL','PostgreSQL'];
     let listFW = ['React.js & Vite.js', 'Node.js','Flask (Básico)'];
     let listMA = ['Scrum','Design Think','Seis Sigma White Belt'];
