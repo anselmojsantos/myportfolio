@@ -33,9 +33,9 @@ export function Header(){
                         <li className='n-items cursor-pointer hover:text-400 sm:mt-20'><Link to="home" 
                             spy={true} smooth={true} offset={-80} duration={500} onClick={closeMenu}>HOME</Link></li>
                         <li className='n-items cursor-pointer hover:text-400'>
-                            <Link to="id-personal" spy={true} smooth={true} offset={-80} duration={500} onClick={closeMenu}>EXPEREIENCE</Link></li>
+                            <Link to="id-personal" spy={true} smooth={true} offset={-80} duration={500} onClick={closeMenu}>COMPETÊNCIAS</Link></li>
                         <li className='n-items cursor-pointer hover:text-400'>
-                            <Link to="id-projects" spy={true} smooth={true} offset={-80} duration={500} onClick={closeMenu}>PROJECTS</Link></li>
+                            <Link to="id-projects-dates" spy={true} smooth={true} offset={-80} duration={500} onClick={closeMenu}>PROJECTS</Link></li>
                         
                         <div id = "id-close-menu"className='hidden w-8 h-8 sm:flex justify-center items-center cursor-pointer rounded absolute
                                                             ring-slate-100 ring-2  p-3 top-0 hover:bg-400 hover:ring-400'

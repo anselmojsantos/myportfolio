@@ -1,12 +1,15 @@
+import { useState } from 'react';
 import {CardsComponents} from '../components/cards/CardsComponents';
+import { ProjectModal } from '../components/projectModal/ProjectModal';
 
 export function ProjectsDates(){
      const bgDates = '/bgImages/BgDates.jpg';
      const dashVendas = '/dashImg/dashVendas.png';
      const smartDash = '/dashImg/smartDash.png';
      const dashFinFlcx = '/dashImg/dashFin.PNG';
+     const [openModal, setOpenModal] = useState(false);
     return(
-        <section id="id-projects"
+        <section id="id-projects-dates"
             className="w-ful h-auto flex justify-center items-center">
                 <div id="id-pj" 
                     className='w-[1040px] h-auto text-slate-50 p-5 bg-bg-blue-900 
@@ -17,33 +20,36 @@ export function ProjectsDates(){
                         className="w-full text-400 text-center text-[25px] font-semibold
                         pb-6"
                     >
-                        My Projects
+                        Projetos
                     </h2>  
                     <p className='text-dates text-center text-slate-100 text-[20px] font-semibold mb-5'>
-                        Analise de Dados - Power BI
+                        Análise de Dados
                     </p>
                     <div id="id-ct-pj" className='w-full h-auto flex justify-around items-center flex-wrap'>
                         <CardsComponents 
                             linkImg={dashVendas}
-                            textSpanBold = "Mini Curos de Power BI - Vendas de Chocolates"
-                            textSpan = "Karine Lago - 2025"
+                            textSpanBold = "Dashboard de Vendas — Power BI"
+                            textSpan = "Projeto de formação | mini curso - 2025"
                             linkPages = 'https://app.powerbi.com/view?r=eyJrIjoiNWNjYzdmZDgtYWQxMy00NWI3LTk4NjAtMWZjYTJmZDQ0MmIyIiwidCI6IjFlNTEwNDMzLWE4ZDAtNGJiNS1iMjkzLTllY2RhOWZkOTQzYSJ9'
                         />
                         <CardsComponents
                             linkImg={dashFinFlcx}
-                            textSpanBold = "Imerssão Power BI - Fluxo de Caixa"
-                            textSpan = "Karina Lago e Letícia - 2025"
+                            textSpanBold = "Dashboard de Fluxo de Caixa — Power BI"
+                            textSpan = "Projeto de formação | imersão - 2025"
                             linkPages = 'https://app.powerbi.com/view?r=eyJrIjoiOWJkOTdmMzUtNmIxNy00ZTc1LThkYTgtMjI1OTkwZmRlNzM5IiwidCI6IjFlNTEwNDMzLWE4ZDAtNGJiNS1iMjkzLTllY2RhOWZkOTQzYSJ9&pageName=2fcb35581e9bd5de6dc6' 
                         />
                         <CardsComponents
                             linkImg={smartDash}
-                            textSpanBold = "Projeto Integrador - Analise de Dados"
-                            textSpan = "PJ II Univesp | Python - 2025"
+                            textSpanBold = "Smart Order Dashboard"
+                            textSpan = "Análise de Dados | Python + Streamlit"
+                            textP = "Projeto Integrador — UNIVESP"
                             linkPages = 'https://pj-smart-order-dashboard.streamlit.app/' 
                             linkGit="https://github.com/anselmojsantos/pj-smart-order-dashboard"
+                            onClick={() => setOpenModal(true)}
                         />
                     </div>     
                 </div>     
+                <ProjectModal open={openModal} onClose={() => setOpenModal(false)} />
         </section>
     );
 }

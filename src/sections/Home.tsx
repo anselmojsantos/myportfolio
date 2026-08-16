@@ -41,10 +41,11 @@ export  function Home (){
                         className="text-50 font-semibold text-[35px]
                                 md:m-auto md:-text-[30px] sm:text-[19px]"
                     >
-                            Bem vindo ao meu portifólio,<br />
-                            meu nome é <span className="text-400">{user.name}</span>
+                            <span className="text-400">{user.name || 'Anselmo Santos'}</span>
                     </h1>
-                    <div className="text-lg text-400 mb-4 md:m-ma"></div>
+                    <div className="text-lg text-400 mb-4 md:m-ma">
+                        Tecnologia da Informação | Dados | Python | SQL
+                    </div>
                     <div className="text-50 text-justify mb-4 mr-[10px] leading-loose">
                         <TextApresentation />
                     </div>

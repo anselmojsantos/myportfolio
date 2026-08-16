@@ -17,16 +17,22 @@ export function Curso(){
                     linkImg= 'https://www.vemprafam.com.br/wp-content/uploads/2019/06/logo-1.png'
                     linkUrl = 'https://vemprafam.com.br/'
                     textSpan = 'Faculdade das Américas'
-                    textP = 'Curso: Sistema de Informação | 2020'
+                    textP = 'Sistemas de Informação | formação não concluída'
                 />
                 <CardCurso 
-                    linkImg='https://univesp.br/sites/58f6506869226e9479d38201/theme/images/logo-univesp.png?1746625787'
+                    linkImg='/logo-univesp.png'
                     linkUrl = 'https://univesp.br/'
                     textSpan = 'Univesp'
-                    textP = 'Curso: Ciências de Dados | 2022'
+                    textP = 'Bacharelado em TI — Ênfase em Dados | Concluído 2026'
                 />
                 <CardCurso 
-                    linkImg='B7Web'
+                    linkImg='/logo-univesp.png'
+                    linkUrl = 'https://univesp.br/'
+                    textSpan = 'Univesp'
+                    textP = 'Ciência de Dados | Em andamento'
+                />
+                <CardCurso 
+                    linkImg='/logo-b7web.svg'
                     linkUrl='https://app.b7web.com.br/'
                     textSpan = 'B7Web'
                     textP = 'Curso: Full Stack Dev'

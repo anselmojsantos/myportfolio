@@ -3,7 +3,7 @@ import {CardsComponents} from '../components/cards/CardsComponents';
 export function ProjectsWeb(){
    const bgimg = '/bgImages/Background-Port.png';
     return(
-        <section id="id-projects" 
+        <section id="id-projects-web" 
             className="w-ful h-auto flex justify-center items-center">
                 <div id="id-pj" 
                     className='w-[1040px] h-auto text-slate-50 p-5 bg-bg-blue-900 relative
@@ -21,7 +21,7 @@ export function ProjectsWeb(){
                         className="w-full text-400 text-center text-[25px] font-semibold
                         pb-6"
                     >
-                        My Projects
+                        Projetos
                     </h2>  
                     <p className='text-center text-slate-100 text-[20px] font-semibold mb-5'>
                         Desenvolvimento Web

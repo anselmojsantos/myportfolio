@@ -14,8 +14,8 @@ export default function App() {
        <Header/>
        <Home />
        <Experience />
-       <ProjectsWeb />
        <ProjectsDates />
+       <ProjectsWeb />
        <Curso />
        <Footer />
     </div>

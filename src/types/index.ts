@@ -7,6 +7,7 @@ export interface CardCursoProps {
   linkPages?: string;
   linkGit?: string;
   linkUrl?: string;
+  onClick?: () => void;
 }
 
 export interface GitLink {
