@@ -1,11 +1,10 @@
 import { CardSkill } from "../components/cards/CardSkill";
 
 export function Experience(){
-    let listLP = ['Python','Python para análise de dados','SQL','Pandas','Streamlit'];
-    let listBD = ['PostgreSQL','MySQL','Modelagem de banco de dados'];
-    let listFW = ['Node.js','React.js','JavaScript','Flask'];
-    let listMA = ['Inteligência Artificial — em estudo','Estatística descritiva','Estatística inferencial','Machine Learning — fundamentos'];
-    let listPT = ['Git/GitHub','Scrum','Design Thinking','Six Sigma','Figma/UI/UX'];
+    let listLP = ['Pandas','Python','Python para análise de dados','SQL','Streamlit'];
+    let listBD = ['Modelagem de banco de dados','MySQL','PostgreSQL'];
+    let listFW = ['Flask','JavaScript','Node.js','React.js'];
+    let listPT = ['Design Thinking','Git/GitHub','Scrum','Six Sigma'];
    
     return(
         <section id="id-personal" 
@@ -27,7 +26,6 @@ export function Experience(){
                             <CardSkill titleH2 ='Dados e Programação' list={listLP}/>
                             <CardSkill titleH2 ='Banco de Dados' list={listBD}/>
                             <CardSkill titleH2 ='Desenvolvimento' list={listFW}/>
-                            <CardSkill titleH2 ='IA e Estatística' list={listMA}/>
                             <CardSkill titleH2 ='Ferramentas e Métodos' list={listPT}/>                          
                         </div>
                     </div>
